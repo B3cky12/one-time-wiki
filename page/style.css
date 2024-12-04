@@ -1,0 +1,42 @@
+html,
+body,
+div {
+  display: flex;
+}
+
+html {
+  height: auto;
+  min-height: 100%;
+}
+
+.card {
+  position: relative;
+  z-index: -1;
+  background-color: #fff;
+  margin: 1.5em;
+  padding: 1.5em;
+  border: solid 1em;
+  border-image: conic-gradient(
+      #ff8fff,
+      #fa9189,
+      #fcae7c,
+      #ffe699,
+      #f9ffb5,
+      #b3f5bc,
+      #86ffe5,
+      #a2ceff,
+      #f0bdff,
+      #ff8fff
+    )
+    1;
+  content: "";
+}
+
+.text {
+  display: inline;
+  text-wrap: balance;
+}
+
+p {
+  text-align: justify;
+}
