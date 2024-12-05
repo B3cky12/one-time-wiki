@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  background: #aaa;
+  background: #fff;
 }
 
 .card {
@@ -22,6 +22,7 @@ body {
   border-radius: 50px;
   background-color: #fff;
   background-clip: padding-box;
+  opacity: 90%;
 }
 
 .card::after {
