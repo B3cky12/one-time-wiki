@@ -52,8 +52,29 @@ body {
   display: inline;
   text-wrap: balance;
   margin: auto;
+  padding: 0 25px 0 25px;
 }
 
 p {
   text-align: justify;
+}
+
+.images {
+  display: block;
+  width: 400px;
+  height: 500px;
+  margin: auto;
+  padding: 1px 25px 1px 25px;
+}
+
+img {
+  width: 350px;
+  height: auto;
+  margin-bottom: 25px;
+  border: transparent;
+  border-radius: 15px;
+}
+
+.images:last-child {
+  margin-bottom: 0;
 }
