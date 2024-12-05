@@ -1,0 +1,59 @@
+html,
+body,
+div {
+  display: flex;
+}
+
+html {
+  height: auto;
+  min-height: 100%;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+body {
+  background: #aaa;
+}
+
+.card {
+  position: relative;
+  margin: 2em 1.5em;
+  padding: 2em 2em;
+  border: solid 1.5em transparent;
+  border-radius: 50px;
+  background-color: #fff;
+  background-clip: padding-box;
+}
+
+.card::after {
+  position: absolute;
+  top: -30px;
+  bottom: -30px;
+  left: -30px;
+  right: -30px;
+  background: conic-gradient(
+    #ff8fff,
+    #fa9189,
+    #fcae7c,
+    #ffe699,
+    #f9ffb5,
+    #b3f5bc,
+    #86ffe5,
+    #a2ceff,
+    #f0bdff,
+    #ff8fff
+  );
+  content: "";
+  z-index: -1;
+  border-radius: 40px;
+  filter: blur(0.7em);
+}
+
+.text {
+  display: inline;
+  text-wrap: balance;
+  margin: auto;
+}
+
+p {
+  text-align: justify;
+}
